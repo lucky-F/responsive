@@ -1,0 +1,51 @@
+body,
+html {
+	width: 100%;
+}
+
+dd img,
+div,
+dl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+li,
+ol,
+p,
+ul {
+	padding: 0;
+	margin: 0
+}
+
+body {
+	padding-top: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+.navbar-brand {
+	font-size: 35px;
+}
+
+.navbar {
+	background: #2dbb55;
+}
+
+.navbar .nav>li>a {
+	color: #FFFFFF;
+}
+
+.navbar .nav>li>a:.active {
+	background-color: #2e9900;
+}
+
+.navbar .nav>li>a:hover {
+	background-color: #2e9900;
+}

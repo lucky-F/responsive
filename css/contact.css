@@ -1,0 +1,40 @@
+#img{
+	width: 100%;
+	height: 100%;
+}
+
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word;
+}
+
+#dituContent {
+	margin-top: 20px;
+	width:80%;
+	height: 500px;
+	border: #ccc solid 1px;
+}
+
+#map{
+	width: 100%;
+	padding: 10%;
+	height: auto;
+	padding-top: 50px;
+     background-color: #f0f8ff;
+     text-align: center;
+}
+#map h2{
+	font-weight: bold;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>响应式网站</title>
+		<!-- 引入 Bootstrap -->
+		<!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+		<!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+		<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+
+	</head>
+
+	<body>
+		<!--头部-->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">旅游网站</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav navbar-center">
+						<li class="active">
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="html/strategy.html">攻略</a>
+						</li>
+						<li>
+							<a href="html/contact.html">联系我们</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#myModal">关于</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</nav>
+
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ol>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/bg1.png" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="img/bg2.png" alt="Second slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<div id="content">
+			<h2 class="h2">景点推荐</h2>
+			<!--栅格系统-->
+			<div class="container " id="summary-container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/1.png" alt="大理">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/2.png" alt="鼓浪屿">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/3.png" alt="长白山">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/4.png" alt="青岛">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/5.png" alt="丽江">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/6.png" alt="日本">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/7.png" alt="新加坡">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/8.png" alt="毛里求斯">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrap" id="wrap">
+			<div class="wrap-main">
+				<h2 class="p">公司简介</h2>
+				<p class="p">经营宗旨：改善生态环境，谋求企业发展。<br /> 经营哲学：投资一株幼苗收获一棵大树，种下一粒种子采收一盆名花。</p>
+				<p class="p"> 管理理念：军队一样的执行力，学校一样的教育培训，家庭一样的人情关怀。</p>
+				<p class="p"> 企业精神：诚信和谐，爱拚会赢，与时俱进。</p>
+				<p class="p">&nbsp;&nbsp;&nbsp;&nbsp; 十年成就经典，百年成就辉煌！ 我们执着，是因为守望未来的成功；我们拚搏，是因为相信世间自有公道，付出就有回报；我们感恩，是因为铭记每位帮助过我们的朋友，还有我们肩负的社会责 任；我们注重每一个微小的细节，是为了成就一个圆满的梦想；我们诚邀八方精英，是为了开拓造福天下的绿化事业！</p>
+			</div>
+		</div>
+
+		<div class="service">
+			<div class="service-main">
+				<h2>服务宗旨</h2>
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-6 col-ms-12" style="margin-top:50px;">
+							<p>我们的服务宗旨：</p>
+							<p>只有客户发展了，才有我们的生存与发展！</p>
+							<p>客户是上帝，我们只有专业和感恩！</p>
+						</div>
+
+						<div class="col-md-6 col-ms-12" style="margin-top:50px;">
+							<img src="img/service.jpg" class="img-responsive">
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<div class="foot" id="footer">
+			<p class="pull-right">
+				<a href="#top"><img src="img/top.png"></a>
+			</p>
+			<p>All Rights Reserved</p>
+			<p>联系方式：0123456789</p>
+		</div>
+
+		<!-- 模态框（Modal） -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">关于</h4>
+					</div>
+
+					<div class="modal-body">
+						每一次的旅行都将成为伴随你一生的记忆，成为永久的财富，你拥有的，是所有人所艳羡的浪漫。没有什么能够阻挡，你对自由的向往。我们都在路上，我们都在探索，我们一起前进。
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">了解了	</button>
+					</div>
+
+				</div>
+			</div>
+			<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+			<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+			<!--<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+			<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+			<script type="text/javascript">
+				var main = document.querySelector(".wrap-main");
+				var p = document.querySelectorAll(".p");
+				var s = document.querySelector(".service-main");
+
+				window.onscroll = function() {
+					var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+					if(scrollTop === 600 || scrollTop > 600) {
+						main.className = "wrap-active";
+					} else {
+						main.className = "";
+					}
+
+					if(scrollTop === 1000 || scrollTop > 1000) {
+						s.className = "first";
+					} else {
+						s.className = "";
+					}
+				}
+			</script>
+	</body>
+
+</html>
